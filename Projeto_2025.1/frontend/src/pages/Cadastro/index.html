@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Usuário</title>
+    <link rel="stylesheet" href="../Cadastro/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header"></div>
+        <div class="content">
+            <h2>Cadastro - Usuário</h2>
+            <form action="../Home/index.html">
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome">
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="telefone">Telefone</label>
+                        <input type="text" id="telefone" name="telefone">
+                    </div>
+                    <div class="form-group">
+                        <label for="cpf">CPF</label>
+                        <input type="text" id="cpf" name="cpf">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="vicio">Selecione seu principal vício</label>
+                    <select id="vicio" name="vicio">
+                        <option value="0">Selecione</option>
+                        <option value="1">Tabagismo</option>
+                        <option value="2">Álcool</option>
+                        <option value="3">Atividade Física</option>
+                        <!-- Adicione outras opções conforme necessário -->
+                    </select>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="data-nascimento">Data de nascimento</label>
+                        <input type="date" id="data-nascimento" name="data-nascimento">
+                    </div>
+                    <div class="form-group">
+                        <label for="genero">Gênero</label>
+                        <input type="text" id="genero" name="genero">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="senha">Senha</label>
+                        <input type="password" id="senha" name="senha">
+                    </div>
+                    <div class="form-group">
+                        <label for="repetir-senha">Repetir Senha</label>
+                        <input type="password" id="repetir-senha" name="repetir-senha">
+                    </div>
+                </div>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
