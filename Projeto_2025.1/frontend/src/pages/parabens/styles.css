@@ -27,7 +27,7 @@ span {
     padding: 0.5rem;
 }
 
-.box-day, .triggers-section {
+.box-day, .box-logo {
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -37,6 +37,17 @@ span {
     border-radius: 0.5rem;
     width: 80%;
     margin-top: 1rem;
+}
+
+.box-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+}
+
+.box-logo {
+    background-color: #3C4C8F;
 }
 
 
@@ -49,7 +60,7 @@ input {
 
 button {
     padding: 0.5rem;
-    width: 7rem;
+    width: 10rem;
     border: none;
     background-color: #2b3990;
     border-radius: 5px;
