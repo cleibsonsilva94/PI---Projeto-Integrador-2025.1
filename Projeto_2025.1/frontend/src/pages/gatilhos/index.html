@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatilhos</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header class="header-nav">
+        <p>Home</p>
+        <p>Voltar</p>
+    </header>
+    <section class="container">
+        <article class="box-day">
+            <h2>Meu dia "D"</h2>
+            <input type="date" id="d-day" name="d-day">
+        </article>
+
+        <article class="triggers-section">
+            <h2>Lista de Gatilhos</h2>
+            <div class="table-section">
+
+            </div>
+            <table>
+            <thead>
+                <tr>
+                    <th>Gatilhos</th>
+                </tr>
+            </thead>
+            <tbody id="trigger-list">
+            </tbody>
+            </table>
+            <span id="default-span">Nenhum gatilho encontrado.</span>
+            <input type="text" placeholder="Insira o Gatilho" id="input-gatilho">
+            <button id="trigger-adicionar">Adicionar</button>
+        </article>
+
+    </section>
+    <script>
+        document.getElementById('trigger-adicionar').addEventListener('click', function() {
+        let input = document.getElementById('input-gatilho');
+        if(!input.value) return;
+        let triggerList = document.getElementById('trigger-list');
+        let spanLabel = document.getElementById('default-span');
+        if(spanLabel) spanLabel.remove();
+        
+        let newRow = document.createElement('tr');
+        let newCell = document.createElement('td');
+        
+        newCell.textContent = input.value;
+        newRow.appendChild(newCell);
+        triggerList.appendChild(newRow);
+        input.value = '';
+        });
+    </script>
+</body>
+</html>
