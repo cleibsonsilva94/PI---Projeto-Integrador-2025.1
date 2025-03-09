@@ -59,10 +59,13 @@ button {
 
 .header-nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background-color: #2b3990;
     width: 100%;
-    padding: 10px;
     height: 3rem;
+}
+
+.header-nav > * {
+    padding: 10px;
 }
