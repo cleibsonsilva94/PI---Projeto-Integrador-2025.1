@@ -9,14 +9,15 @@ body {
     background-color: #f0f0f0;
 }
 
-
 .container {
-    width: 90%;
-    max-width: 600px;
+    width:150vw;
+    max-width: 1200px;
+    height: auto;
     background: white;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px; 
 }
 
 header {
@@ -46,18 +47,15 @@ main {
     margin-bottom: 10px;
 }
 
-
 .orange { background-color: #f4b183; }
 .green { background-color: #c6e0b4; }
 .yellow { background-color: #ffe699; }
-
 
 footer {
     text-align: center;
     padding: 15px;
     background: white;
 }
-
 
 .start-button {
     background: #2b3990;
@@ -76,8 +74,9 @@ footer {
 /* RESPONSIVIDADE */
 @media screen and (max-width: 768px) {
     .container {
-        width: 95%;
-        max-width: 450px;
+        width: 95vw;
+        max-width: 480px;
+        padding: 15px;
     }
     
     header {
