@@ -110,10 +110,10 @@ dicas para lidar com seus gatilhos.
 Citação: "Quero parar de apostar para recuperar o controle das minhas finanças e 
 melhorar meus relacionamentos."
 
-#### Interface Intuitiva
+### Interface Intuitiva
 • Navegação simples e acessível com design pensado para atender diferentes perfis de usuários.
 
-#### Protótipo funcional Revisitado
+### Protótipo funcional Revisitado
 * Protótipo funcional que foi desenvolvido na ferramenta [FIGMA](https://www.figma.com/design/8ewQoKwqFXeU4EcFANw8ic/Projeto-PI-part2?t=Dw6HDTvlWBYjIkYt-0), com foco na experiência do usuário e na usabilidade.
 
 
