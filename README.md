@@ -16,7 +16,8 @@ Este trabalho apresenta a proposta de um aplicativo voltado ao auxílio de pesso
 
 ###  Características Principais 
 
- • Informações Educativas - Este projeto propõe que o primeiro passo seja o usuário conhecer um pouco mais sobre o 
+   ##### Informações Educativas 
+ • Este projeto propõe que o primeiro passo seja o usuário conhecer um pouco mais sobre o 
 seu vício e o benefício de uma vida saudável de forma objetiva e leve.
  • O segundo passo se trata do entendimento da importância da elaboração de estratégias 
 para superar seus vícios e quais podem ajudar a princípio, a fim de reeducar os hábitos dos 
@@ -46,12 +47,14 @@ contemplar os primeiros passos para 3 dos principais vícios da atualidade.
 
 ### Desafios e Soluções 
 
--Desafios: 
+##### Desafios: 
+
 • Concorrência: Plataformas similares no mercado como a “QuitNow” e outras 
 similares. 
 • Captação de Recursos: Dificuldade em atrair investidores devido ao foco menor no retorno financeiro. 
 
--Soluções: 
+##### Soluções: 
+
 • Diferenciação: Foco em personalização e diversificação de vícios dentro de uma 
 mesma plataforma se destacando no mercado. 
 • Parcerias: Estabelecimento de parcerias com organizações de saúde e bem-estar 
