@@ -1,5 +1,4 @@
 
-
 # NewPath: Aplicativo de Apoio à Dependentes
 
 ### PI - Projeto Integrador 2025.1
@@ -17,24 +16,21 @@ Este trabalho apresenta a proposta de um aplicativo voltado ao auxílio de pesso
 
 ###  Características Principais 
 
-- Informações Educativas - Este projeto propõe que o primeiro passo seja o usuário conhecer um pouco mais sobre o 
+ • Informações Educativas - Este projeto propõe que o primeiro passo seja o usuário conhecer um pouco mais sobre o 
 seu vício e o benefício de uma vida saudável de forma objetiva e leve.
-- O segundo passo se trata do entendimento da importância da elaboração de estratégias 
+ • O segundo passo se trata do entendimento da importância da elaboração de estratégias 
 para superar seus vícios e quais podem ajudar a princípio, a fim de reeducar os hábitos dos 
 usuários. 
 
-### Ferramentas de autoconhecimento 
-- Este aplicativo direciona o usuário a escolher opções mais saudáveis, e para isso eles 
-precisam anotar no bloco de notas seus próprios gatilhos.
-- Outra parte importante é o incentivo à busca por atividades físicas que melhor se 
-adaptem a cada um. 
-Rede de Apoio
-- A Comunicação com familiares e amigos é muito importante na visão de diversas 
-organizações voltadas para a saúde, fazendo com que o usuário compartilhe experiências e 
-busque suporte quando necessário, além de melhorar a comunicação e entendimento do 
-vício entre a rede de apoio do usuário.
-- Incentivo a busca por profissionais de saúde mental e física para consultas e orientações 
-específicas e especializadas que vão indicar os melhores tratamentos para cada usuário.
+   ##### Ferramentas de autoconhecimento 
+• Este aplicativo direciona o usuário a escolher opções mais saudáveis. Para isso, eles precisam anotar no bloco de notas seus próprios gatilhos.
+
+• Outra parte importante é o incentivo à busca por atividades físicas que melhor se adaptem a cada um.
+
+   ##### Rede de Apoio
+• A comunicação com familiares e amigos é muito importante na visão de diversas organizações voltadas para a saúde, fazendo com que o usuário compartilhe experiências e busque suporte quando necessário. Isso também melhora a comunicação e entendimento do vício entre a rede de apoio do usuário.
+
+• Incentivo à busca por profissionais de saúde mental e física para consultas e orientações específicas e especializadas que vão indicar os melhores tratamentos para cada usuário.
  
 ### Diferenciais do Aplicativo 
 • Personalização: Cada usuário poderá escrever suas anotações de gatilhos, 
@@ -67,12 +63,12 @@ habitos.
 Nossa missão é ajudar as pessoas que enfrentam lutas diárias contra vícios que afligem a 
 humanidade, promovendo saúde mental e física, para uma boa qualidade de vida. 
 
-### Elaboração das Personas// Público Alvo:
+### Personas// Público Alvo:
 
 #### Persona 1: Tabaco 
 
-Nome: Guilherme Idade: 40 anos Profissão: Gerente de Vendas Localização: Rio de 
-Janeiro 
+Nome: Guilherme Idade: 40 anos Profissão: Gerente de Vendas Localização: Rio de Janeiro 
+ 
  -Descrição: Guilherme é um gerente de vendas que trabalha longas horas e 
 frequentemente lida com altos níveis de estresse. Ele começou a fumar na adolescência e agora 
 fuma cerca de um maço por dia. João está ciente dos riscos à saúde associados ao tabagismo e 
@@ -86,7 +82,8 @@ começar torna isso muito difícil."
 #### Persona 2: Álcool 
 
 Nome: Marina Idade: 35 anos Profissão: Advogada Localização: São Paulo 
- -Descrição: Marina é uma advogada bem-sucedida que frequentemente participa de 
+
+-Descrição: Marina é uma advogada bem-sucedida que frequentemente participa de 
 eventos sociais e profissionais onde o consumo de álcool é comum. Ela percebeu que está 
 bebendo mais do que gostaria e quer reduzir seu consumo de álcool para melhorar sua saúde e 
 bem-estar. 
@@ -98,8 +95,8 @@ produtiva no trabalho."
 
 #### Persona 3: Aposta 
 
-Nome: Carlos Idade: 28 anos Profissão: Desenvolvedor de Software Localização: Belo 
-Horizonte 
+Nome: Carlos Idade: 28 anos Profissão: Desenvolvedor de Software Localização: Belo Horizonte 
+
  -Descrição: Carlos é um desenvolvedor de software que gosta de apostar em jogos de 
 futebol online. O que começou como um hobby se transformou em um problema, afetando suas 
 finanças e relacionamentos. Ele quer encontrar uma maneira de controlar seu vício em apostas e 
@@ -111,11 +108,10 @@ Citação: "Quero parar de apostar para recuperar o controle das minhas finança
 melhorar meus relacionamentos."
 
 #### Interface Intuitiva
+• Navegação simples e acessível com design pensado para atender diferentes perfis de usuários.
 
--Navegação simples e acessível com design pensado para atender diferentes perfis de usuários.
-
-
-O protótipo funcional foi desenvolvido na ferramenta xxxxx, com foco na experiência do usuário e na usabilidade.
+#### Protótipo funcional Revisitado
+* Protótipo funcional que foi desenvolvido na ferramenta [FIGMA](https://www.figma.com/design/8ewQoKwqFXeU4EcFANw8ic/Projeto-PI-part2?t=Dw6HDTvlWBYjIkYt-0), com foco na experiência do usuário e na usabilidade.
 
 
 ### Tecnologias Utilizadas
@@ -132,5 +128,23 @@ O protótipo funcional foi desenvolvido na ferramenta xxxxx, com foco na experi�
 Este repositório contém um projeto desenvolvido para a Faculdade Senac. O projeto a ser implementado pode ser encontrado no link abaixo:  
 
 [Descrição do sistema](https://github.com/BarbaraFdeOliveira/SENAC_PI/blob/main/Descri%C3%A7%C3%A3o/Descri%C3%A7%C3%A3o%20do%20sistema.md)  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###### Licença
+Projeto desenvolvido como parte do Projeto Integrador: Desenvolvimento de Sistemas Orientado a Dispositivos Móveis e Baseados na Web e destinado a fins acadêmicos.
+
+###### SENAC - 2025
 
 
