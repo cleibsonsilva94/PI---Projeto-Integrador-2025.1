@@ -122,8 +122,10 @@ O protótipo funcional foi desenvolvido na ferramenta xxxxx, com foco na experi�
 
 
 
+## Instalação  
 
-```bash
+1. Clone o repositório:  
+   ```bash  
    git clone git@github.com:cleibsonsilva94/PI---Projeto-Integrador-2025.1.git
    ```
 
