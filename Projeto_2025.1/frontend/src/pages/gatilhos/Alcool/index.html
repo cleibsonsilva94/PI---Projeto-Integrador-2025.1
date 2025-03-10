@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gatilhos</title>
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../../../../style.css">
 
 </head>
 <body>
     <header class="header-nav">
-        <p>Voltar</p>
+        <a href="../../Ajuda/Alcool/index.html">
+            <img src="../../../images/voltar.svg" alt="">
+        </a>
         <a href="../Home/index.html">
             <img src="../../images/icon-home.svg" alt="">
         </a>
@@ -42,23 +44,10 @@
         </article>
 
     </section>
-    <button class="navigate-button">Próximo</button>
-    <script>
-        document.getElementById('trigger-adicionar').addEventListener('click', function() {
-        let input = document.getElementById('input-gatilho');
-        if(!input.value) return;
-        let triggerList = document.getElementById('trigger-list');
-        let spanLabel = document.getElementById('default-span');
-        if(spanLabel) spanLabel.remove();
-        
-        let newRow = document.createElement('tr');
-        let newCell = document.createElement('td');
-        
-        newCell.textContent = input.value;
-        newRow.appendChild(newCell);
-        triggerList.appendChild(newRow);
-        input.value = '';
-        });
-    </script>
+    <a href="../../parabens/index.html" id="link-proximo">
+        <button class="navigate-button">Próximo</button>
+    </a>
+
+    <script src="../../../../../backend/adicionarGatilho.js"></script>
 </body>
 </html>

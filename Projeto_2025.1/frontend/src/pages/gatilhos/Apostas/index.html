@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatilhos</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../../../../style.css">
+
+</head>
+<body>
+    <header class="header-nav">
+        <a href="../../Ajuda/Apostas/index.html">
+            <img src="../../../images/voltar.svg" alt="">
+        </a>
+        <a href="../Home/index.html">
+            <img src="../../images/icon-home.svg" alt="">
+        </a>
+        
+    </header>
+    <section class="container">
+        <article class="box-day">
+            <h2>Meu dia "D"</h2>
+            <input type="date" id="d-day" name="d-day">
+        </article>
+
+        <article class="triggers-section">
+            <h2>Lista de Gatilhos</h2>
+            <div class="table-section">
+
+            </div>
+            <table>
+            <thead>
+                <tr>
+                    <th>Gatilhos</th>
+                </tr>
+            </thead>
+            <tbody id="trigger-list">
+            </tbody>
+            </table>
+            <span id="default-span">Nenhum gatilho encontrado.</span>
+            <input type="text" placeholder="Insira o Gatilho" id="input-gatilho">
+            <button id="trigger-adicionar">Adicionar</button>
+        </article>
+
+    </section>
+    <a href="../../parabens/index.html" id="link-proximo">
+        <button class="navigate-button">Próximo</button>
+    </a>
+    <script src="../../../../../backend/adicionarGatilho.js"></script>
+</body>
+</html>

@@ -43,8 +43,11 @@ td {
     width: 15rem;
     height: 2.5rem;
     font-size: small;
+    font-family: Arial, sans-serif;
     border-radius: 5px;
-    background-color: #c5c9dd;
+    background-color: #c5c9dd; 
+    margin: 10em;
+    padding-left: 20px;
 }
 
 .header-nav {

@@ -18,7 +18,7 @@ body {
     position: relative;
     width: 430px;
     height: 932px;
-    background-color: #ffffff
+    background-color: #0f1a45;
     border-radius: 20px;
     display: flex;
     justify-content: center;
@@ -70,8 +70,19 @@ input {
     background-color: #ccc;
 }
 
-.btn {
-    width: 100%;
+.botoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+.botaoEntrar {
+    width: 40%;
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -79,13 +90,9 @@ input {
     color: black;
     font-weight: bold;
     cursor: pointer;
-    margin-bottom: 10px;
+    margin: 15px 0px;
 }
 
-.btn-secondary {
-    background-color: white;
-}
-
-.btn:hover {
+a:hover {
     opacity: 0.8;
 }

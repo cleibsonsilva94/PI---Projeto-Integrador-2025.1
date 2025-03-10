@@ -10,18 +10,22 @@ input {
     width: 10rem;
     border-radius: 5px;
     border: 1px solid black;
+    margin-top: 0.5rem;
 }
 
 button {
-    padding: 0.5rem;
-    width: 10rem;
+    background-color: #3C4C8F; 
+    color: #fff;
     border: none;
-    background-color: #2b3990;
-    border-radius: 5px;
-    margin: 1rem;
-    color: white
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 20px 20px 20px 0px;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
     cursor: pointer;
+    background-color: #0056b3; 
 }
+

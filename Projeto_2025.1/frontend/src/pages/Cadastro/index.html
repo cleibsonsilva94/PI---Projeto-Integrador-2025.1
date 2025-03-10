@@ -7,62 +7,68 @@
     <link rel="stylesheet" href="../Cadastro/styles.css">
 </head>
 <body>
-    <div class="container">
+    
         <div class="header"></div>
         <div class="content">
             <h2>Cadastro - Usuário</h2>
-            <form action="../Home/index.html">
+            <form id="formCadastro">
                 <div class="form-group">
                     <label for="nome">Nome</label>
-                    <input type="text" id="nome" name="nome">
+                    <input type="text" id="nome" name="nome" required>
                 </div>
                 <div class="form-row">
                     <div class="form-group">
                         <label for="telefone">Telefone</label>
-                        <input type="text" id="telefone" name="telefone">
+                        <input type="text" id="telefone" name="telefone" required>
                     </div>
                     <div class="form-group">
                         <label for="cpf">CPF</label>
-                        <input type="text" id="cpf" name="cpf">
+                        <input type="text" id="cpf" name="cpf" required>
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="vicio">Selecione seu principal vício</label>
-                    <select id="vicio" name="vicio">
+                    <select id="vicio" name="vicio" required>
                         <option value="0">Selecione</option>
                         <option value="1">Tabagismo</option>
                         <option value="2">Álcool</option>
-                        <option value="3">Atividade Física</option>
+                        <option value="3">Aposta</option>
                         <!-- Adicione outras opções conforme necessário -->
                     </select>
                 </div>
                 <div class="form-row">
                     <div class="form-group">
                         <label for="data-nascimento">Data de nascimento</label>
-                        <input type="date" id="data-nascimento" name="data-nascimento">
+                        <input type="date" id="data-nascimento" name="data-nascimento" required>
                     </div>
                     <div class="form-group">
                         <label for="genero">Gênero</label>
-                        <input type="text" id="genero" name="genero">
+                        <input type="text" id="genero" name="genero" required>
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="email">E-mail</label>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" required>
                 </div>
                 <div class="form-row">
                     <div class="form-group">
                         <label for="senha">Senha</label>
-                        <input type="password" id="senha" name="senha">
+                        <input type="password" id="senha" name="senha" required>
                     </div>
                     <div class="form-group">
                         <label for="repetir-senha">Repetir Senha</label>
                         <input type="password" id="repetir-senha" name="repetir-senha">
                     </div>
                 </div>
-                <button type="submit">Cadastrar</button>
+                <a href="../Login/index.html">
+                    <button type="submit" class="botaoCadastrar">Cadastrar</button>
+                </a>
             </form>
+
         </div>
-    </div>
+        <div id="mensagemSucesso" class="mensagem-sucesso" style="display: none;">
+            Cadastro finalizado!
+        </div>
+        <script src="../../../../backend/validarCadastro.js"></script>
 </body>
 </html>
