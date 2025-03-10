@@ -1,0 +1,27 @@
+.navigate-button {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    width: 7rem;
+}
+
+input {
+    padding: 0.5rem;
+    width: 10rem;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+button {
+    padding: 0.5rem;
+    width: 10rem;
+    border: none;
+    background-color: #2b3990;
+    border-radius: 5px;
+    margin: 1rem;
+    color: white
+}
+
+button:hover {
+    cursor: pointer;
+}
