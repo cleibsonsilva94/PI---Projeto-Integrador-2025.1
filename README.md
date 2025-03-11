@@ -117,6 +117,9 @@ melhorar meus relacionamentos."
 ### Protótipo funcional Revisitado
 * Protótipo funcional que foi desenvolvido na ferramenta [FIGMA](https://www.figma.com/design/8ewQoKwqFXeU4EcFANw8ic/Projeto-PI-part2?t=Dw6HDTvlWBYjIkYt-0), com foco na experiência do usuário e na usabilidade.
 
+### VIDEO
+* Video do projeto rodando apresentado: [Youtube](https://www.youtube.com/shorts/k9AfEEok31w)
+
 ### Tecnologias
 
  **HTML**: Define a estrutura da interface, organizando elementos como botões, formulários e seções de conteúdo.
