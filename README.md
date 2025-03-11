@@ -19,6 +19,7 @@ Este trabalho apresenta a proposta de um aplicativo voltado ao auxílio de pesso
    ##### Informações Educativas 
  • Este projeto propõe que o primeiro passo seja o usuário conhecer um pouco mais sobre o 
 seu vício e o benefício de uma vida saudável de forma objetiva e leve.
+
  • O segundo passo se trata do entendimento da importância da elaboração de estratégias 
 para superar seus vícios e quais podem ajudar a princípio, a fim de reeducar os hábitos dos 
 usuários. 
@@ -36,14 +37,12 @@ usuários.
 ### Diferenciais do Aplicativo 
 • Personalização: Cada usuário poderá escrever suas anotações de gatilhos, 
 promovendo a autorreflexão. 
-• Acessibilidade a informação verificada: Dependentes possuem resistência a 
-buscar ajuda e este aplicativo fornece uma base inicial para que o usuário consiga dar o próximo 
-passo com mais facilidade. 
-• Conteúdo simples e direto: Atualmente as pessoas buscam por conteúdos 
-simplificados e diretos, e como este se trata apenas de um passo inicial, é de grande ajuda que 
-não confunda o usuário com muitas informações. 
-• Contempla mais de um vício: Por sem simples, este aplicativo consegue 
-contemplar os primeiros passos para 3 dos principais vícios da atualidade. 
+
+• Acessibilidade a informação verificada: Dependentes possuem resistência a buscar ajuda e este aplicativo fornece uma base inicial para que o usuário consiga dar o próximo passo com mais facilidade. 
+
+• Conteúdo simples e direto: Atualmente as pessoas buscam por conteúdos simplificados e diretos, e como este se trata apenas de um passo inicial, é de grande ajuda que não confunda o usuário com muitas informações. 
+
+• Contempla mais de um vício: Por sem simples, este aplicativo consegue contemplar os primeiros passos para 3 dos principais vícios da atualidade. 
 
 ### Desafios e Soluções 
 
@@ -51,12 +50,14 @@ contemplar os primeiros passos para 3 dos principais vícios da atualidade.
 
 • Concorrência: Plataformas similares no mercado como a “QuitNow” e outras 
 similares. 
+
 • Captação de Recursos: Dificuldade em atrair investidores devido ao foco menor no retorno financeiro. 
 
 ##### Soluções: 
 
 • Diferenciação: Foco em personalização e diversificação de vícios dentro de uma 
 mesma plataforma se destacando no mercado. 
+
 • Parcerias: Estabelecimento de parcerias com organizações de saúde e bem-estar 
 para fortalecer a credibilidade e atrair investimentos, além de propagandas de promoções em 
 academia, psicólogos e atividades afins, que ajudaram no direcionamento dos usuários a bons 
@@ -116,38 +117,50 @@ melhorar meus relacionamentos."
 ### Protótipo funcional Revisitado
 * Protótipo funcional que foi desenvolvido na ferramenta [FIGMA](https://www.figma.com/design/8ewQoKwqFXeU4EcFANw8ic/Projeto-PI-part2?t=Dw6HDTvlWBYjIkYt-0), com foco na experiência do usuário e na usabilidade.
 
+### Tecnologias
 
-### Tecnologias Utilizadas
+ **HTML**: Define a estrutura da interface, organizando elementos como botões, formulários e seções de conteúdo.
+
+**CSS**: Responsável pela estilização e personalização do design.
+
+**JavaScript**: Torna a página dinâmica e interativa.
+
+**LocalStorage**: Armazena dados no navegador, reduzindo solicitações ao servidor e melhorando a performance.
+
+### Instalação
+**Passo 1**: Clonar o repositório
+Execute o seguinte comando no terminal:
+copiar
+```bash
+git clone git@github.com:cleibsonsilva94/PI---Projeto-Integrador-2025.1.git
+ ```
+**Passo 2**: Acessar o diretório do projeto
+Copiar
+ ```bash
+cd PI---Projeto-Integrador-2025.1
+ ```
+**Passo 3**: Instalar a extensão Live Server
+ ```bash
+Baixe e instale a extensão Live Server no VS Code.
+ ```
+
+### Execução
+
+• A primeira tela exibida será a de Login.
+
+• Clique com o botão direito no arquivo index.html (tela de login) e selecione "Open with Live Server".
+
+• Para melhor experiência, clique com o botão direito fora da tela de login, selecione "Inspecionar", vá até "Dimensões" no canto superior esquerdo e escolha iPhone 14 Pro Max.
+
+• A tela de login exige um cadastro para acesso. O usuário deve se registrar antes de prosseguir.
 
 
 
-## Instalação  
 
-1. Clone o repositório:  
-   ```bash  
-   git clone git@github.com:cleibsonsilva94/PI---Projeto-Integrador-2025.1.git
-   ```
-
-Este repositório contém um projeto desenvolvido para a Faculdade Senac. O projeto a ser implementado pode ser encontrado no link abaixo:  
+#### Este repositório contém um projeto desenvolvido para a Faculdade Senac. O projeto a ser implementado pode ser encontrado no link abaixo:  
 
 [Descrição do sistema](https://github.com/BarbaraFdeOliveira/SENAC_PI/blob/main/Descri%C3%A7%C3%A3o/Descri%C3%A7%C3%A3o%20do%20sistema.md)  
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-###### Licença
-Projeto desenvolvido como parte do Projeto Integrador: Desenvolvimento de Sistemas Orientado a Dispositivos Móveis e Baseados na Web e destinado a fins acadêmicos.
-
-###### SENAC - 2025
-
-
+**SENAC - 2025**
